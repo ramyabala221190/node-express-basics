@@ -1,0 +1,195 @@
+{"level":"info","message":"/render/dynamic/1","timestamp":"2025-05-24T14:51:34.236Z"}
+{"level":"info","message":"/render/dynamic/1","timestamp":"2025-05-24T14:51:34.579Z"}
+{"level":"info","message":"/favicon.ico","timestamp":"2025-05-24T14:51:36.906Z"}
+{"level":"info","message":"/hello","timestamp":"2025-05-24T14:55:28.920Z"}
+{"level":"info","message":"/render/products","timestamp":"2025-05-25T13:28:00.997Z"}
+{"level":"info","message":"/render/products","timestamp":"2025-05-25T13:28:05.621Z"}
+{"level":"info","message":"/favicon.ico","timestamp":"2025-05-25T13:28:13.042Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:14:51.947Z"}
+{"level":"info","message":"/favicon.ico","timestamp":"2025-05-26T09:14:52.002Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:15:32.967Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:15:32.979Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:16:25.839Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:16:25.847Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:17:38.866Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:17:38.872Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:17:57.634Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:17:57.642Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:18:23.510Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:18:23.512Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:19:11.566Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:19:11.576Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:21:36.754Z"}
+{"level":"info","message":"Error reading data file","timestamp":"2025-05-26T09:21:36.764Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:27:10.943Z"}
+{"level":"info","message":"Error reading data file join is not defined","stack":"ReferenceError: join is not defined\n    at readJSON (file:///C:/Users/User/angular/nodejs-basics/src/fileHelpers.js:6:23)\n    at file:///C:/Users/User/angular/nodejs-basics/src/app.js:1877:25\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:291:5)","timestamp":"2025-05-26T09:27:10.954Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:28:16.461Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:28:16.472Z"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"info","message":"Error reading data file The \"cb\" argument must be of type function. Received an instance of Object","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"cb\" argument must be of type function. Received an instance of Object\n    at maybeCallback (node:fs:179:3)\n    at Object.readFile (node:fs:382:14)\n    at readJSON (file:///C:/Users/User/angular/nodejs-basics/src/fileHelpers.js:10:28)\n    at file:///C:/Users/User/angular/nodejs-basics/src/app.js:1877:25\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:295:15","timestamp":"2025-05-26T09:28:16.475Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:46:03.852Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:46:03.859Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:46:04.972Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:46:04.980Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T09:46:30.842Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:46:30.845Z"}
+{"level":"info","message":"/products/9","timestamp":"2025-05-26T09:54:14.664Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:54:14.669Z"}
+{"level":"info","message":"/products/9","timestamp":"2025-05-26T09:56:21.385Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:56:21.392Z"}
+{"level":"info","message":"/products/9","timestamp":"2025-05-26T09:56:50.451Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T09:56:50.458Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T10:02:57.726Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:02:57.729Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T10:03:28.603Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:03:28.607Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:03:28.610Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:19:46.126Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:19:46.135Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:19:46.139Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:21:05.216Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:05.226Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:05.233Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:21:36.910Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:36.920Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:36.937Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:21:46.726Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:46.734Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:21:46.743Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:22:10.606Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:22:10.613Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:22:10.622Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:45:31.994Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:45:31.997Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:45:32.001Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T10:48:21.049Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:48:21.058Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:48:21.100Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T10:49:43.705Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:49:43.712Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T10:50:24.400Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:50:24.402Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T10:50:34.195Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:50:34.202Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T10:51:12.910Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:51:12.912Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T10:53:32.730Z"}
+{"level":"info","message":"file path","timestamp":"2025-05-26T10:53:32.742Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T12:13:41.120Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T12:13:48.905Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T12:57:52.056Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T12:57:56.382Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T13:33:59.807Z"}
+{"level":"info","message":"/products/2","timestamp":"2025-05-26T13:34:04.377Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T13:41:23.430Z"}
+{"level":"info","message":"/products/102","timestamp":"2025-05-26T13:41:28.365Z"}
+{"level":"error","message":"Error: Delete Failed ! Product Not Found\n    at deleteProductSvcs (file:///C:/Users/User/angular/nodejs-basics/src/services/productService.js:44:15)\n    at async deleteProductCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/productController.js:26:30)","timestamp":"2025-05-26T13:41:28.375Z"}
+{"level":"info","message":"/products/5","timestamp":"2025-05-26T13:41:35.573Z"}
+{"level":"info","message":"/products/5","timestamp":"2025-05-26T13:43:26.104Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T13:51:12.886Z"}
+{"level":"info","message":"/products/5","timestamp":"2025-05-26T13:51:17.329Z"}
+{"level":"info","message":"Id of product to be deleted: 5","timestamp":"2025-05-26T13:51:17.331Z"}
+{"level":"info","message":"Product to be deleted: [object Object]","timestamp":"2025-05-26T13:51:17.335Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T13:54:58.745Z"}
+{"level":"info","message":"/products/6","timestamp":"2025-05-26T13:55:09.277Z"}
+{"level":"info","message":"Id of product to be deleted: 6","timestamp":"2025-05-26T13:55:09.278Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":6,\"title\":\"Calvin Klein CK One\",\"description\":\"CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.\",\"category\":\"fragrances\",\"price\":49.99,\"discountPercentage\":1.89,\"rating\":4.37,\"stock\":29,\"tags\":[\"fragrances\",\"perfumes\"],\"brand\":\"Calvin Klein\",\"sku\":\"FRA-CAL-CAL-006\",\"weight\":7,\"dimensions\":{\"width\":29.36,\"height\":27.76,\"depth\":20.72},\"warrantyInformation\":\"1 week warranty\",\"shippingInformation\":\"Ships overnight\",\"availabilityStatus\":\"In Stock\",\"reviews\":[{\"rating\":2,\"comment\":\"Very disappointed!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Layla Young\",\"reviewerEmail\":\"layla.young@x.dummyjson.com\"},{\"rating\":4,\"comment\":\"Fast shipping!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Daniel Cook\",\"reviewerEmail\":\"daniel.cook@x.dummyjson.com\"},{\"rating\":3,\"comment\":\"Not as described!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Jacob Cooper\",\"reviewerEmail\":\"jacob.cooper@x.dummyjson.com\"}],\"returnPolicy\":\"90 days return policy\",\"minimumOrderQuantity\":9,\"meta\":{\"createdAt\":\"2025-04-30T09:41:02.053Z\",\"updatedAt\":\"2025-04-30T09:41:02.053Z\",\"barcode\":\"2451534060749\",\"qrCode\":\"https://cdn.dummyjson.com/public/qr-code.png\"},\"images\":[\"https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp\",\"https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp\",\"https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp\"],\"thumbnail\":\"https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp\"}","timestamp":"2025-05-26T13:55:09.283Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T14:00:38.252Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:05:08.113Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T14:05:13.574Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:05:43.405Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T14:05:47.896Z"}
+{"level":"info","message":"/products/105","timestamp":"2025-05-26T14:06:26.339Z"}
+{"level":"info","message":"Id of product to be deleted: 105","timestamp":"2025-05-26T14:06:26.343Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":105,\"title\":\"New Product\"}","timestamp":"2025-05-26T14:06:26.346Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:07:48.991Z"}
+{"level":"info","message":"/products/105","timestamp":"2025-05-26T14:07:52.473Z"}
+{"level":"info","message":"Id of product to be deleted: 105","timestamp":"2025-05-26T14:07:52.476Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":105,\"title\":\"New Product\"}","timestamp":"2025-05-26T14:07:52.482Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:08:17.628Z"}
+{"level":"info","message":"/products/105","timestamp":"2025-05-26T14:08:21.567Z"}
+{"level":"info","message":"Id of product to be deleted: 105","timestamp":"2025-05-26T14:08:21.569Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":105,\"title\":\"New Product\"}","timestamp":"2025-05-26T14:08:21.576Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:09:25.486Z"}
+{"level":"info","message":"/products/105","timestamp":"2025-05-26T14:09:28.166Z"}
+{"level":"info","message":"Id of product to be deleted: 105","timestamp":"2025-05-26T14:09:28.169Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":105,\"title\":\"New Product\"}","timestamp":"2025-05-26T14:09:28.176Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:10:23.727Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T14:10:30.182Z"}
+{"level":"info","message":"Id of product to be deleted: 100","timestamp":"2025-05-26T14:10:30.183Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":100,\"title\":\"New Product\",\"description\":\"The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.\",\"category\":\"beauty\",\"price\":9.99,\"discountPercentage\":10.48,\"rating\":2.56,\"stock\":99,\"tags\":[\"beauty\",\"mascara\"],\"brand\":\"Essence\",\"sku\":\"BEA-ESS-ESS-001\",\"weight\":4,\"dimensions\":{\"width\":15.14,\"height\":13.08,\"depth\":22.99},\"warrantyInformation\":\"1 week warranty\",\"shippingInformation\":\"Ships in 3-5 business days\",\"availabilityStatus\":\"In Stock\",\"reviews\":[{\"rating\":3,\"comment\":\"Would not recommend!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Eleanor Collins\",\"reviewerEmail\":\"eleanor.collins@x.dummyjson.com\"},{\"rating\":4,\"comment\":\"Very satisfied!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Lucas Gordon\",\"reviewerEmail\":\"lucas.gordon@x.dummyjson.com\"},{\"rating\":5,\"comment\":\"Highly impressed!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Eleanor Collins\",\"reviewerEmail\":\"eleanor.collins@x.dummyjson.com\"}],\"returnPolicy\":\"No return policy\",\"minimumOrderQuantity\":48,\"meta\":{\"createdAt\":\"2025-04-30T09:41:02.053Z\",\"updatedAt\":\"2025-04-30T09:41:02.053Z\",\"barcode\":\"5784719087687\",\"qrCode\":\"https://cdn.dummyjson.com/public/qr-code.png\"},\"images\":[\"https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp\"],\"thumbnail\":\"https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp\"}","timestamp":"2025-05-26T14:10:30.185Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:12:47.072Z"}
+{"level":"info","message":"/products/30","timestamp":"2025-05-26T14:14:24.028Z"}
+{"level":"info","message":"Id of product to be deleted: 30","timestamp":"2025-05-26T14:14:24.030Z"}
+{"level":"info","message":"Product to be deleted: {\"id\":30,\"title\":\"Kiwi\",\"description\":\"Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.\",\"category\":\"groceries\",\"price\":2.49,\"discountPercentage\":15.22,\"rating\":4.93,\"stock\":99,\"tags\":[\"fruits\"],\"sku\":\"GRO-BRD-KIW-030\",\"weight\":5,\"dimensions\":{\"width\":19.4,\"height\":18.67,\"depth\":17.13},\"warrantyInformation\":\"6 months warranty\",\"shippingInformation\":\"Ships overnight\",\"availabilityStatus\":\"In Stock\",\"reviews\":[{\"rating\":4,\"comment\":\"Highly recommended!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Emily Brown\",\"reviewerEmail\":\"emily.brown@x.dummyjson.com\"},{\"rating\":2,\"comment\":\"Would not buy again!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Jackson Morales\",\"reviewerEmail\":\"jackson.morales@x.dummyjson.com\"},{\"rating\":4,\"comment\":\"Fast shipping!\",\"date\":\"2025-04-30T09:41:02.053Z\",\"reviewerName\":\"Nora Russell\",\"reviewerEmail\":\"nora.russell@x.dummyjson.com\"}],\"returnPolicy\":\"7 days return policy\",\"minimumOrderQuantity\":30,\"meta\":{\"createdAt\":\"2025-04-30T09:41:02.053Z\",\"updatedAt\":\"2025-04-30T09:41:02.053Z\",\"barcode\":\"2530169917252\",\"qrCode\":\"https://cdn.dummyjson.com/public/qr-code.png\"},\"images\":[\"https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp\"],\"thumbnail\":\"https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp\"}","timestamp":"2025-05-26T14:14:24.033Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:17:14.525Z"}
+{"level":"info","message":"/products/1","timestamp":"2025-05-26T14:17:21.625Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:17:43.808Z"}
+{"level":"info","message":"/products/1","timestamp":"2025-05-26T14:17:50.125Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:19:18.371Z"}
+{"level":"info","message":"/products/1","timestamp":"2025-05-26T14:19:22.629Z"}
+{"level":"info","message":"Id of product to be updated: 1","timestamp":"2025-05-26T14:19:22.632Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T14:45:58.700Z"}
+{"level":"info","message":"/products/100","timestamp":"2025-05-26T14:46:06.286Z"}
+{"level":"info","message":"Id of product to be retrieved: 100","timestamp":"2025-05-26T14:46:06.288Z"}
+{"level":"error","message":"Error: Product Not Found\n    at getProductByIdSvcs (file:///C:/Users/User/angular/nodejs-basics/src/services/productService.js:19:15)\n    at async getProductByIdCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/productController.js:15:20)","timestamp":"2025-05-26T14:46:06.292Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T15:41:01.758Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-26T15:41:07.076Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T15:41:29.312Z"}
+{"level":"info","message":"/render/hardcoded","timestamp":"2025-05-26T15:41:34.870Z"}
+{"level":"info","message":"/render/dynamic","timestamp":"2025-05-26T15:41:46.765Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-26T15:41:55.414Z"}
+{"level":"info","message":"Id of product to be retrieved: undefined","timestamp":"2025-05-26T15:41:55.415Z"}
+{"level":"error","message":"Error: Product Not Found\n    at getProductByIdSvcs (file:///C:/Users/User/angular/nodejs-basics/src/services/productService.js:19:15)\n    at async dynamicSingleContentCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/renderController.js:14:25)","timestamp":"2025-05-26T15:41:55.418Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T15:42:33.383Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-26T15:42:36.093Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-26T15:42:36.095Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T16:46:18.644Z"}
+{"level":"info","message":"/render/dynamic/100","timestamp":"2025-05-26T16:46:27.416Z"}
+{"level":"info","message":"Id of product to be retrieved: 100","timestamp":"2025-05-26T16:46:27.419Z"}
+{"level":"error","message":"Error: Product Not Found\n    at getProductByIdSvcs (file:///C:/Users/User/angular/nodejs-basics/src/services/productService.js:20:15)\n    at async dynamicSingleContentCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/renderController.js:16:25)","timestamp":"2025-05-26T16:46:27.424Z"}
+{"level":"info","message":"/render/dynamic","timestamp":"2025-05-26T16:46:45.635Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T16:47:03.117Z"}
+{"level":"info","message":"/render/hardcoded","timestamp":"2025-05-26T16:47:11.091Z"}
+{"level":"error","message":"TypeError: res.status(...).rende is not a function\n    at hardCodedContentCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/renderController.js:6:25)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:186:3)","timestamp":"2025-05-26T16:47:11.094Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T16:49:44.277Z"}
+{"level":"info","message":"/render/hardcoded","timestamp":"2025-05-26T16:49:48.306Z"}
+{"level":"error","message":"TypeError: res.status(...).rende is not a function\n    at hardCodedContentCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/renderController.js:6:25)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:186:3)","timestamp":"2025-05-26T16:49:48.308Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T16:50:08.293Z"}
+{"level":"info","message":"/render/hardcoded","timestamp":"2025-05-26T16:50:11.549Z"}
+{"level":"error","message":"TypeError: res.status(...).rende is not a function\n    at hardCodedContentCntrl (file:///C:/Users/User/angular/nodejs-basics/src/controllers/renderController.js:6:25)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\User\\angular\\nodejs-basics\\node_modules\\router\\index.js:186:3)","timestamp":"2025-05-26T16:50:11.551Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-26T16:56:01.692Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-26T16:56:10.772Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-26T16:56:10.776Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-27T05:56:25.097Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T05:56:47.124Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T05:56:47.126Z"}
+{"level":"info","message":"/favicon.ico","timestamp":"2025-05-27T05:56:53.479Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-27T06:04:22.610Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T06:04:24.702Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T06:04:24.704Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T06:04:45.851Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T06:04:45.853Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-27T08:59:57.166Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T09:00:04.430Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T09:00:04.431Z"}
+{"level":"info","message":"server listening on port 3000","timestamp":"2025-05-27T09:52:19.557Z"}
+{"level":"info","message":"server listening on port: undefined","timestamp":"2025-05-27T09:52:34.998Z"}
+{"level":"info","message":"server listening on port: 3000","timestamp":"2025-05-27T09:52:40.563Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T09:52:50.863Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T09:52:50.866Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T09:53:22.902Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T09:53:22.904Z"}
+{"level":"info","message":"server running in development listening on port: 3000","timestamp":"2025-05-27T09:54:17.003Z"}
+{"level":"info","message":"server running in production listening on port: 8080","timestamp":"2025-05-27T10:29:43.151Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-27T10:30:47.241Z"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-05-27T10:30:47.289Z"}
+{"level":"info","message":"/favicon.ico","timestamp":"2025-05-27T10:30:47.332Z"}
+{"level":"info","message":"server running in development listening on port: 3000","timestamp":"2025-05-27T10:33:03.806Z"}
+{"level":"info","message":"/render/dynamic/10","timestamp":"2025-05-27T10:33:09.558Z"}
+{"level":"info","message":"Id of product to be retrieved: 10","timestamp":"2025-05-27T10:33:09.560Z"}
+{"level":"info","message":"server running in development listening on port: 3000","timestamp":"2025-05-27T12:03:07.331Z"}
+{"level":"info","message":"server running in development listening on port: 3000","timestamp":"2025-05-27T12:04:02.372Z"}
+{"level":"info","message":"server running in undefined listening on port: undefined","timestamp":"2025-05-27T12:11:41.925Z"}
+{"level":"info","message":"server running in undefined listening on port: undefined","timestamp":"2025-05-27T12:11:41.983Z"}
+{"level":"info","message":"server running in production listening on port: 3000","timestamp":"2025-05-28T14:06:05.425Z"}
+{"level":"info","message":"/products","timestamp":"2025-05-28T14:06:14.024Z"}

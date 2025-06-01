@@ -1,0 +1,9 @@
+services:
+   app:
+     container_name: dev-container
+     image: dev-image
+     build:
+        context: .
+        dockerfile: Dockerfile
+     ports:
+       - 3000:5000

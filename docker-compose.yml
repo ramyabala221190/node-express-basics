@@ -1,0 +1,35 @@
+
+services:
+   docker-dev:
+     container_name: dev-container
+     image: dev-image
+     env_file: .env.development
+   #   environment: #run time arguments
+   #     - targetEnv=development
+     build:
+      #   args:  #these args are available during build time
+      #      - targetArg=development
+        context: .
+        dockerfile: Dockerfile
+     ports:
+       - 3000:3000
+
+   docker-prod:
+     container_name: prod-container
+     image: prod-image
+     env_file: .env.production
+   #   environment: #run time arguments
+   #     - targetEnv=production
+     build:
+      #   args:  #these args are available during build time
+      #      - targetArg=production
+        context: .
+        dockerfile: Dockerfile
+     ports:
+       - 8080:8080
+
+
+#docker compose -f docker-compose.yml up -d --remove-orphans --no-build nginx-dev
+#docker compose -f docker-compose.yml build nginx-dev
+#docker compose -f docker-compose.yml build nginx-prod
+#docker compose -f docker-compose.yml up -d --remove-orphans --no-build nginx-prod

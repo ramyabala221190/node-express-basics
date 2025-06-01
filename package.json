@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-basics",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-watch-inspect": "node --inspect --watch-path ./src src/app.js",
+    "start": "node src/app.js",
+    "pm2-prod": "pm2 start ecosystem.config.cjs --env production",
+    "pm2-dev": "pm2 start ecosystem.config.cjs --env development",
+    "pm2":"dotenvx run --env-file=.env.development -- pm2-runtime start ecosystem.config.cjs --env production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.44.1",
+    "dotenv": "^16.5.0"
+  }
+}
