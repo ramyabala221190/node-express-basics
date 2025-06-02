@@ -4,7 +4,7 @@ services:
      container_name: ${containerName}
      image: ${DOCKER_HUB_CRED_USR}/${toRepositoryName}:${buildNumber}
      environment:
-        - environment=${environ}
+        - environment=development
     # env_file: .env.development
    #   environment: #run time arguments
    #     - targetEnv=development
@@ -20,7 +20,7 @@ services:
      container_name: ${containerName}
      image: prod-image
      environment:
-        - environment=${environ}
+        - environment=production
      #env_file: .env.production
    #   environment: #run time arguments
    #     - targetEnv=production
