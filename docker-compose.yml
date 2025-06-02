@@ -9,8 +9,8 @@ services:
    #   environment: #run time arguments
    #     - targetEnv=development
      build:
-      #   args:  #these args are available during build time
-      #      - targetArg=development
+        args:  #these args are available during build time
+           - targetEnv=${environ}
         context: .
         dockerfile: Dockerfile
      ports:
@@ -25,8 +25,8 @@ services:
    #   environment: #run time arguments
    #     - targetEnv=production
      build:
-      #   args:  #these args are available during build time
-      #      - targetArg=production
+        args:  #these args are available during build time
+           - targetEnv=${environ}
         context: .
         dockerfile: Dockerfile
      ports:

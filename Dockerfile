@@ -9,7 +9,9 @@ FROM node:20 as node
 
 # RUN echo ${envAtBuild}
 
-WORKDIR /var/www/node-basics
+ARG targetEnv
+
+WORKDIR /var/${targetEnv}/docker/
 
 COPY package.json package-lock.json ./
 RUN npm cache clean --force
