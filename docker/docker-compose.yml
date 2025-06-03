@@ -1,8 +1,8 @@
 
 services:
    docker-dev:
-     container_name: dev-container
-     image: dev-image
+     container_name: ${containerName}
+     image: ${DOCKER_HUB_CRED_USR}/${toRepositoryName}:${buildNumber}
      environment:
         - environment=development
     # env_file: .env.development
@@ -18,7 +18,7 @@ services:
 
    docker-prod:
      container_name: ${containerName}
-     image: prod-image
+     image: ${DOCKER_HUB_CRED_USR}/${toRepositoryName}:${buildNumber}
      environment:
         - environment=production
      #env_file: .env.production
