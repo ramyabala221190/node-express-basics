@@ -528,19 +528,12 @@ using environment or you load the variables in a .env file via env_file attribut
 
 Anyway you do it, it can be accessed in the container.
 
---------------------------------
+----------------------------------------------
+.env files are only for local run.
+Since they will be excluded from the source control, you cannot access them in the container.
+The sensitive env variables need to be set on remote server and accessed in the app.
+-----------------------------------------------------
 
-With docker, dotenvx is not needed to load env variables.
-Without docker, dotenvx is needed to load env variables.
-
-dotenvx is required to load the environment specific variables at runtime if docker is not there
-dotenv is fine for single environment file. But for multiple environment files, we go for dotenvx.
-pm2 is required to manage the node process.
-docker container ensures deployment to any location.
-
----------------------------------------------
-Managing multiple environments
-
-npm i @dotenvx/dotenvx --save-dev
+Installing docker in remote vm
 
 Use https://medium.com/javascript-in-plain-english/angular-pulling-docker-image-from-dockerhub-and-running-the-image-in-a-remote-azure-vm-via-jenkins-3a702ec44ee9 to install docker on Ubuntu

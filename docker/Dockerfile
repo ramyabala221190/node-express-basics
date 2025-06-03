@@ -1,4 +1,4 @@
-FROM node:20 as node
+FROM node:alpine as node
 # targetArg is the build time argument set in docker compose. We cannot pass environment variables set in compose to dockerFile. They
 # can be accessed while running the container
 # ARG targetArg
