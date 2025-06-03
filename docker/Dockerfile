@@ -11,6 +11,7 @@ FROM node:20 as node
 
 ARG targetEnv
 
+#WORKDIR /app
 WORKDIR /var/${targetEnv}/docker/
 
 COPY package.json package-lock.json ./

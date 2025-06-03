@@ -542,3 +542,5 @@ docker container ensures deployment to any location.
 Managing multiple environments
 
 npm i @dotenvx/dotenvx --save-dev
+
+Use https://medium.com/javascript-in-plain-english/angular-pulling-docker-image-from-dockerhub-and-running-the-image-in-a-remote-azure-vm-via-jenkins-3a702ec44ee9 to install docker on Ubuntu

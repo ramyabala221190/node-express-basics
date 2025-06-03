@@ -1,8 +1,8 @@
 
 services:
    docker-dev:
-     container_name: ${containerName}
-     image: ${DOCKER_HUB_CRED_USR}/${toRepositoryName}:${buildNumber}
+     container_name: dev-container
+     image: dev-image
      environment:
         - environment=development
     # env_file: .env.development
@@ -11,10 +11,10 @@ services:
      build:
         args:  #these args are available during build time
            - targetEnv=${environ}
-        context: .
-        dockerfile: Dockerfile
+        context: ../
+        dockerfile: docker/Dockerfile
      ports:
-       - 3000:3000
+       - 3004:3004
 
    docker-prod:
      container_name: ${containerName}
@@ -30,10 +30,10 @@ services:
         context: .
         dockerfile: Dockerfile
      ports:
-       - 8080:8080
+       - 8084:8084
 
 
-#docker compose -f docker-compose.yml up -d --remove-orphans --no-build nginx-dev
-#docker compose -f docker-compose.yml build nginx-dev
+#docker compose -f docker/docker-compose.yml up -d --remove-orphans --no-build docker-dev
+#docker compose -f docker/docker-compose.yml build docker-dev
 #docker compose -f docker-compose.yml build nginx-prod
-#docker compose -f docker-compose.yml up -d --remove-orphans --no-build nginx-prod
+#docker compose -f docker-compose.yml up -d --remove-orphans --no-build docker-prod

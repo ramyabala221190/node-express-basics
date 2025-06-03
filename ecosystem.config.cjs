@@ -7,11 +7,11 @@ module.exports = {
       NODE_ENV:'production'
     },
     env_development:{
-      PORT:3000,
+      PORT:3004,
       APP_ENV:'development'
     },
     env_production:{
-      PORT:8080,
+      PORT:8084,
       APP_ENV:'production'
     },
      node_args:''
