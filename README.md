@@ -311,3 +311,211 @@ export async function getAllProductsSvcs(){
     return products;
 }
 
+-------------------------------------------------------------------------------------------------------
+
+# Event loop
+
+Node.js is single-threaded(runs on a single thread), meaning it can only execute one piece of JavaScript code at a time. The Event Loop is what allows Node.js to handle many operations concurrently without blocking i.e  it can handle many tasks at once without waiting for each one to finish before starting the next.
+
+## How it works:
+Start with your main code — Node runs it line by line.
+
+Call Stack: When you run synchronous JavaScript code, functions are pushed onto the Call Stack and executed one by one.
+
+Asynchronous Operations: When an asynchronous operation (like reading a file, making a network request, or a setTimeout) is encountered, it's handed off to the underlying system (via libuv, a C++ library) to handle in the background. The main JavaScript thread doesn't wait; it continues executing other code on the Call Stack.
+
+Event Queue (Callback Queue): Once an asynchronous operation(running in the background) completes, its associated callback function is placed in the Event Queue.
+
+Event Loop: The Event Loop constantly monitors the Call Stack and the Event Queue. When the Call Stack is empty (meaning all synchronous code has finished executing), the Event Loop takes the first callback from the Event Queue and pushes it onto the Call Stack for execution.
+
+## Micro and Macro tasks
+
+Both **microtasks** and **macrotasks** are asynchronous, but they behave a bit differently in terms of **when** they run.
+Order of execution:
+Main code ---> microtasks --->macrotasks
+
+### ✅ What Makes Them Asynchronous?
+- They **don’t block** the main thread.
+- They’re scheduled to run **later**, not immediately during the current execution.
+- They allow Node.js (and browsers) to stay **responsive** and **non-blocking**.
+
+### 🧠 Key Differences
+
+| Feature         | Microtasks                          | Macrotasks                          |
+|----------------|-------------------------------------|-------------------------------------|
+| Examples        | `Promise.then()`, `process.nextTick()` | `setTimeout()`, `setImmediate()`     |
+| Timing          | Runs **right after** current code finishes | Runs in the **next event loop cycle** |
+| Priority        | **Higher** — runs before macrotasks | Lower — runs after microtasks        |
+| Use Case        | Quick follow-ups, chaining logic    | Delayed actions, timers, I/O         |
+
+### 🧪 Code Example
+```js
+console.log("Start");
+
+setTimeout(() => console.log("Macrotask"), 0);
+
+Promise.resolve().then(() => console.log("Microtask"));
+
+console.log("End");
+```
+
+**Output:**
+```
+Start
+End
+Microtask
+Macrotask
+```
+
+Even though both are async, **microtasks run first** because they’re prioritized by the event loop.
+
+So yes — both are asynchronous, but **microtasks are like VIP guests**: they get in first, even if macrotasks were scheduled earlier.
+
+Microtasks run immediately after the current operation and before any macrotasks.
+Which Node.js-specific function schedules a microtask? process.nexttick()
+
+```
+const fs = require('fs');
+
+console.log('🔹 Start of script');
+
+// Microtask (process.nextTick)
+process.nextTick(() => {
+  console.log('🔸 process.nextTick (microtask)');
+});
+
+// Microtask (Promise)
+Promise.resolve().then(() => {
+  console.log('🔸 Promise.then (microtask)');
+});
+
+// Macrotask (Timers phase)
+setTimeout(() => {
+  console.log('🔸 setTimeout (macrotask - timers phase)');
+}, 0);
+
+// Macrotask (Check phase)
+setImmediate(() => {
+  console.log('🔸 setImmediate (macrotask - check phase)');
+});
+
+// Macrotask (Poll phase - I/O)
+fs.readFile(__filename, () => {
+  console.log('🔸 fs.readFile callback (macrotask - poll phase)');
+});
+
+console.log('🔹 End of script');
+
+O/P
+
+🔹 Start of script
+🔹 End of script
+🔸 process.nextTick (microtask)
+🔸 Promise.then (microtask)
+🔸 setTimeout (macrotask - timers phase)
+🔸 fs.readFile callback (macrotask - poll phase)
+🔸 setImmediate (macrotask - check phase)
+
+```
+
+What This Shows
+Main code runs first.
+
+Microtasks (process.nextTick, Promise.then) run immediately after main code.
+Microtasks run after each phase, before the loop continues.
+
+Macrotasks are tied to specific phases like Timers and Check.
+Macrotasks (setTimeout, fs.readFile, setImmediate) are handled in their respective phases.
+
+
+
+### Node.js Event Loop Phases
+1. Timers Phase
+
+Handles callbacks from setTimeout() and setInterval() if their time has expired.Macrotasks like setTimeout() are queued here.
+
+2. Pending Callbacks Phase
+
+Executes I/O callbacks deferred to the next loop iteration.Rarely used directly by developers.
+
+3. Idle, Prepare Phase
+
+Internal use only. Prepares for the next phase.
+
+4. Poll Phase
+
+Retrieves new I/O events and executes their callbacks.
+If no timers are ready and no I/O is pending, it may wait here.
+I/O macrotasks (like file reads) are processed here.
+
+5. Check Phase
+
+Executes callbacks from setImmediate().Macrotasks like setImmediate() are queued here.
+
+6. Close Callbacks Phase
+
+Handles cleanup for closed resources (e.g., sockets)
+
+
+# All you need to know about NPM
+
+### Semantic versioning
+
+It is a system for versioning npm packages using a 3 part number: MAJOR.MINOR.PATCH
+
+This system allows developers to understand the impact of the package update and make informed decisions.
+
+=> Major version is incremented when there are backward-incompatible changes and upgrading to this major version
+might break your existing code and requires modifications. eg: 1.0.0 to 2.0.0
+
+=> Minor version is incremented when there are backward-compatible new features added. You can upgrade to this minor version
+without breaking your code. eg: 1.0.0 to 1.1.0
+
+=> Patch version is incremented when there are backward compatible bug fixes or security patches done. Again you can upgrade to
+this patch version without breaking your code. eg: 1.0.0 to 1.0.1
+
+When a higher level version number is incremented, the remaining lower version numbers are reset to 0.
+If current version of a package is 1.5.2 and I add a new feature, then the new version will be 1.6.0
+Here minor version is getting incremented, so the lower patch version will be reset to 0. The major version number will remain unchanged.
+
+In case a breaking change is added, then 1.5.2 will change to 2.0.0. Since major version is incrementing, the lower minor and patch
+versions will be reset to 0.
+
+### Tilde, Caret and Exact version
+
+The ~(tilde),^(caret) symbols before the package version indicates how much flexibility npm has when installing updates
+for that package.
+
+Usage of tilde symbol allows only patch version updates.
+Ex: ~1.2.3 in the package.json indicates that npm can install patch updates >=1.2.3 but < 1.3.0
+So the minor and major versions remain fixed.
+The patch version can be equal to or greater than the specified number.
+
+~1.2 means >= 1.2.0 but < 2.0.0
+Since patch version is not specified, it allows for minor version updates as well but major version remains fixed.
+
+Usage of caret symbol allows patch and minor version updates.
+^1.2.3  means npm can install >= 1.2.3 but < 2.0.0
+^1.3 means npm can install >=1.3.0 but < 2.0.0
+
+Usage of exact version means no updates will be installed
+1.2.3 means the exact 1.2.3 version will be installed
+
+### Dependencies,package.json and package-lock.json
+
+package.json is like the blueprint for the project.
+It lists the project's name,version,scripts and the range of versions for its dependencies.
+you can manually edit this file.
+
+package-lock.json is a detailed snapshot of the exact versions of all deps in your project at a specific moment. It is automatically
+generated each time you install or modify the packages.
+The purpose of this file is to ensure everyone working on the project and even the deployment enviornment uses identical set of
+dependency versions, preventing "it works on my machine" issues.
+This file should not be manually edited.
+
+Dependencies are packages your project needs to run in production.
+Packages your application needs to function correctly in a production environment.
+
+devDependencies are only needed for development and testing and are not included in the final build. They are not required for the application to run in production, so they are not installed on the production server.
+Testing frameworks (like Jest, Mocha, Cypress), build tools (like Webpack, Babel), and code linters (like ESLint, Prettier). 
+
